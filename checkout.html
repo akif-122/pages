@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.1/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <section class="checkout-section">
+            <div class="container">
+
+                <div class="logo-section">
+                    <div class="logo-wrap">
+                        <img src="assets/imgs/1681976160-logo.webp" alt="">
+                    </div>
+                </div>
+                
+                <div class="row">
+                    <div class="col-lg-8">
+                        <div class="checkout-form ">
+                            <p>This is a <strong>Delivery Order</strong></p>
+                            <p>Just a last step, please enter your details:</p>
+
+                            <div class="row mt-4">
+
+                                <div class="col-3 col-lg-2">
+                                    <div class="form-group">
+                                        <label for="">Title</label>
+                                        <select name="" id="" class="form-select">
+                                            <option value="">Mr.</option>
+                                            <option value="">Miss.</option>
+                                            <option value="">Mrs.</option>
+                                        </select>
+                                    </div>
+                                </div>
+
+                                <div class="col-9 col-lg-10">
+                                    <div class="form-group">
+                                        <label for="">Full Name</label>
+                                        <input type="text" placeholder="Full Name" class="form-control">
+                                    </div>
+                                </div>
+
+                                <div class="col-sm-6">
+                                    <div class="form-group">
+                                        <label for="">Mobile Number</label>
+                                        <input type="number" placeholder="0333xxxxxxxx" class="form-control">
+                                    </div>
+                                </div>
+
+                                <div class="col-sm-6">
+                                    <div class="form-group">
+                                        <label for="">Alternate Mobile Number</label>
+                                        <input type="number"   placeholder="0333xxxxxxxx" class="form-control">
+                                    </div>
+                                </div>
+
+                                <div class="col-12">
+                                    <div class="form-group">
+                                        <label for="">Delivery Address</label>
+                                        <div class="input-group">
+                                            <input type="text" placeholder="Enter Your Complete Address" class="form-control shadow-0">
+                                            <span class="input-group-text">Cannt Area</span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="save-btn d-flex justify-content-end">
+                                    <button class="btn btn-sm btn-warning">+ Save new address </button>
+                                </div>
+
+                                <div class="col-sm-6">
+                                    <div class="form-group">
+                                        <label for="">Nearest Landmark</label>
+                                        <input type="text" class="form-control" placeholder="any famous place nearby">
+                                    </div>
+                                </div>
+
+                                <div class="col-sm-6">
+                                    <div class="form-group">
+                                        <label for="">Email </label>
+                                        <input type="Email" class="form-control" placeholder="Enter Your email">
+                                    </div>
+                                </div>
+
+                                <div class="col-12">
+                                    <div class="form-group">
+                                        <label for="">Delivery Instructions</label>
+                                        <input type="text" class="form-control" placeholder="Delivery Instructions">
+                                    </div>
+                                </div>
+
+                                <div class="col-12">
+                                    <h5>Payment Information</h5>
+                                    <div class="pay-method">
+                                        <img src="assets/imgs/Cash.webp" alt="">
+                                        <span>Cash</span>
+                                    </div>
+                                </div>
+
+                                <div class="col-12">
+                                    <div class="form-group">
+                                        <label for="">Change Request</label>
+                                        <div class="input-group">
+                                            <span class="bg-white input-group-text">Rs.</span>
+                                            <input type="text" class="form-control" placeholder="Delivery Instructions">
+
+                                        </div>
+                                    </div>
+                                </div>
+
+
+
+
+
+
+
+
+
+                            </div>
+
+                        </div>
+                    </div>
+
+
+                    <!-- CART START-->
+                    <div class="col-lg-4 mt-4 mt-lg-0">
+                        <div class="checkout-cart h-100">
+                            <div class="cart">
+                                <div class="cart-item">
+                                    <a href="#">
+                                        <h4>1 x Furooj</h4>
+                                    </a>
+                                    <p class="text-end">Rs. 2500</p>
+                                    <div class="remove-btn">
+                                        <a href="#">Remove</a>
+                                    </div>
+                                </div>
+                                <div class="cart-item">
+                                    <a href="#">
+                                        <h4>1 x Furooj</h4>
+                                    </a>
+                                    <p class="text-end">Rs. 2500</p>
+                                    <div class="remove-btn">
+                                        <a href="#">Remove</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="calc">
+                                <ul>
+                                    <li> 
+                                        <p>Total</p>
+                                        <p>Rs. 3400</p>
+                                    </li>
+                                    <li> 
+                                        <p>Delivery Fee</p>
+                                        <p>Rs. 34</p>
+                                    </li>
+                                    <li> 
+                                        <p class="text-heigh"><strong>Discount 20%</strong></p>
+                                        <p class="text-heigh">Rs. 34</p>
+                                    </li>
+
+                                    <li> 
+                                        <p class=""><strong>Grand Total</strong></p>
+                                        <p class=""><strong>Rs. 3400</strong></p>
+                                    </li>
+
+                                </ul>
+
+                                <div class="d-grid mt-3">
+                                    <button class="btn btn-warning w-100">Place Order</button>
+                                </div>
+                                <div class="mt-4 text-center">
+                                    <a href="#">continue to add more items</a>
+                                </div>
+                                
+                            </div>
+
+                        </div>
+                    </div>
+                    <!-- CART END -->
+
+                </div>
+            </div>
+        </section>
+    </div>
+
+</body>
+
+</html>
